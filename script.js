@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    const apiRoot = 'https://blooming-savannah-27502.herokuapp.com/v1/task/';
+    const apiRoot = 'https://blooming-savannah-27502.herokuapp.com/v1/task';
     const trelloApiRoot = 'https://blooming-savannah-27502.herokuapp.com/v1/trello';
     const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
     const $tasksContainer = $('[data-tasks-container]');
